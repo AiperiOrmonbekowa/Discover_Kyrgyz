@@ -1,4 +1,4 @@
-import 'package:discover_kyrgyz/presention/home/home_view.dart';
+import 'package:discover_kyrgyz/presention/home/home_view/home_view.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
