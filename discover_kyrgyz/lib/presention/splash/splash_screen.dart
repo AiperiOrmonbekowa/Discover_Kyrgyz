@@ -1,7 +1,8 @@
-import 'package:discover_kyrgyz/presention/home/home_view/home_view.dart';
+import 'package:discover_kyrgyz/presention/main/main_view.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -17,12 +18,13 @@ class _SplashScreenState extends State<SplashScreen> {
     Future.delayed(
       const Duration(seconds: 4),
       () {
-        Navigator.pushReplacement(
-          context,
-          MaterialPageRoute(
-            builder: (context) => const HomeView(),
-          ),
-        );
+        context.go('/main');
+        // Navigator.pushReplacement(
+        //   context,
+        //   MaterialPageRoute(
+        //     builder: (context) => const MainView(),
+        //   ),
+        // );
       },
     );
   }
@@ -30,11 +32,13 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.cyan[900],
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'assets/images/splash.gif',
+              'assets/images/logodiscover.gif',
               height: 150,
             ),
             const SizedBox(height: 30),
