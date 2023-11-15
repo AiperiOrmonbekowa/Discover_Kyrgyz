@@ -1,4 +1,4 @@
-import 'package:discover_kyrgyz/widgets/sign_in_button.dart';
+import 'package:discover_kyrgyz/presention/signIn/widgets/sign_in_button.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
@@ -50,15 +50,15 @@ class MainView extends StatelessWidget {
               height: 150,
             ),
             SignInButton(
-              text: 'Sign In',
-              () => context.go('/signUp'),
+              text: 'Sign Up',
+              () => context.go('/appIntro'),
             ),
             const SizedBox(
               height: 20,
             ),
             SignInButton(
               text: 'Google sign In',
-              () => context.go('/googleSignIn'),
+              () => context.go('/appIntro'),
             ),
             const SizedBox(
               height: 100,
