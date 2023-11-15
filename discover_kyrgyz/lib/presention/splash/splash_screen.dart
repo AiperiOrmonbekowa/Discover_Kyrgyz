@@ -1,4 +1,3 @@
-import 'package:discover_kyrgyz/presention/main/main_view.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -19,12 +18,6 @@ class _SplashScreenState extends State<SplashScreen> {
       const Duration(seconds: 4),
       () {
         context.go('/main');
-        // Navigator.pushReplacement(
-        //   context,
-        //   MaterialPageRoute(
-        //     builder: (context) => const MainView(),
-        //   ),
-        // );
       },
     );
   }
