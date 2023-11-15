@@ -7,19 +7,13 @@ class HomeViewBodyMenu extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       height: 20,
       width: 89,
-      /* decoration: BoxDecoration(
-        color: const Color(0xffF3F8FE),
-        borderRadius: BorderRadius.circular(33),
-      ), */
       child: Center(
         child: Text(
           section,
-          style: const TextStyle(
-              //  color: AppColors.textColor3, fontWeight: FontWeight.w700),
-              color: AppColors.textColor2),
+          style: const TextStyle(color: AppColors.textColor2),
         ),
       ),
     );

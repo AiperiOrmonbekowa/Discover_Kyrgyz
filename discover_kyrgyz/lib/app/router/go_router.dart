@@ -1,10 +1,3 @@
-
-import 'package:discover_kyrgyz/presention/main/main_view.dart';
-import 'package:discover_kyrgyz/presention/signIn/google_sign_in.dart';
-import 'package:discover_kyrgyz/presention/signIn/sign_up.dart';
-import 'package:discover_kyrgyz/presention/splash/splash_screen.dart';
-
-import 'package:discover_kyrgyz/presention/home/home_view/home_view.dart';
 import 'package:discover_kyrgyz/presention/main/main_view.dart';
 import 'package:discover_kyrgyz/presention/signIn/google_sign_in.dart';
 import 'package:discover_kyrgyz/presention/signIn/sign_up.dart';
@@ -15,7 +8,7 @@ final goRouter = GoRouter(
     GoRoute(
       path: '/',
       name: 'home',
-      builder: (context, state) => const SplashScreen(),
+      builder: (context, state) => const MainView(),
       routes: [
         GoRoute(
           path: 'signUp',
