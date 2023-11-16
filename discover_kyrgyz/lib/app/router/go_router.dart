@@ -9,7 +9,7 @@ final goRouter = GoRouter(
     GoRoute(
       path: '/',
       name: 'home',
-      builder: (context, state) => const MainView(),
+      builder: (context, state) => const HomeView(),
       routes: [
         GoRoute(
           path: 'signUp',
