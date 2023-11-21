@@ -144,7 +144,8 @@
   #  - 'ios/Runner/Info-Release.plist'
 flutter_native_splash:
   color: "#ffffff"
-  image:  assets/images/logodiscover.gif
+  image:  assets/images/logo_discover.png
   android: true
   ios: true
   web: false
+  # flutter pub run flutter_native_splash:create
