@@ -67,7 +67,6 @@ class _HomeViewAppBarState extends State<HomeViewAppBar> {
           ],
         ),
         const Row(
-          // scrollDirection: Axis.horizontal,
           children: [
             CardPage(
               image: 'assets/images/m.png',
@@ -82,9 +81,7 @@ class _HomeViewAppBarState extends State<HomeViewAppBar> {
               text: '4,5',
             )
           ],
-        )
-        // scrollDirection: Axis.horizontal,
-        ,
+        ),
         const Padding(
           padding: EdgeInsets.only(left: 25),
           child: Text(

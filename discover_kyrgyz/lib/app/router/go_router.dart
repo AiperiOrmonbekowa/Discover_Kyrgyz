@@ -1,5 +1,4 @@
 import 'package:discover_kyrgyz/presention/home/home_view/home_view.dart';
-import 'package:discover_kyrgyz/presention/main/main_view.dart';
 import 'package:discover_kyrgyz/presention/signIn/google_sign_in.dart';
 import 'package:discover_kyrgyz/presention/signIn/sign_up.dart';
 import 'package:go_router/go_router.dart';
